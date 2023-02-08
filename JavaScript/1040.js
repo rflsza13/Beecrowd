@@ -10,9 +10,10 @@ com a média anteriormente calculada e divida por 2). e imprima a mensagem "Alun
 ou mais ) ou "Aluno reprovado.", (caso a média tenha ficado 4.9 ou menos). Para estes dois casos (aprovado ou reprovado
 após ter pego exame) apresente na última linha uma mensagem "Media final: " seguido da média final para esse aluno. */
 
-var [n1, n2, n3, n4] = [9.0, 4.0, 8.5, 9.0];
+var [n1, n2, n3, n4] = [2.0, 4.0, 7.5, 8.0];
 var med = (n1 * 2  + n2 * 3 + n3 * 4 + n4) / 10
 
+console.log(n1, n2, n3, n4);
 if (med >= 7.0){
     console.log(`Media: ${med}`)
     console.log("Aluno aprovado.")
